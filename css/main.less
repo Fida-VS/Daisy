@@ -1,9 +1,15 @@
+@primary-color: #fc635e;
+@primary-color-dark: #e44640;
+@primary-color-rgba:  rgba(255, 72, 72, 0.75);
+@grey-ligth: #868686;
+@gray-text: gray;
+@white-text: #fff;
 body {
     a.arrowDown {
         font-size: 30px;
         text-decoration: none;
-        color: #fc635e;
-        border: 1px solid #fc635e;
+        color: @primary-color;
+        border: 1px solid @primary-color;
         display: flex;
         justify-content: center;
         margin: 0 auto;
@@ -11,43 +17,43 @@ body {
         width: 45px;
         height: 45px;
         &:hover {
-            background: #fc635e;
-            color: #ffffff;
+            background: @primary-color;
+            color: @white-text;
         }
     }
     a.btn {
-        color: #fc635e; 
+        color: @primary-color; 
         text-decoration: none;
         font-size: 22px;
-        border: 2px solid #fc635e;
+        border: 2px solid @primary-color;
         padding: 12px 28px;
         border-radius: 8px;
         &:hover {
-            background:  #fc635e;
-            color: #fff;
+            background:  @primary-color;
+            color: @white-text;
         }
     }
     .mainText {
         text-align: center;
-        h1 {
+        h2 {
             text-transform: uppercase;
             font-size: 50px;
-            color: #ffffff;
+            color: @white-text;
             span {
-                color: #fc635e;
+                color: @primary-color;
             }
         }
         p {
-            color: #ffffff;
+            color: @white-text;
             font-size: 22px;
         }
     }
-    h1.main_header { 
+    h2.main_header { 
         margin: 0;
         text-transform: uppercase;
         font-size: 40px;
         span {
-            color: #fc635e;
+            color: @primary-color;
         }
      }
     /*Тело сайта*/
@@ -66,7 +72,7 @@ body {
             justify-content: space-around;
             align-items: center;
             >a {
-                color: #fff;
+                color: @white-text;
                 font-size: 25px;
                 font-weight: bold;
                 text-decoration: none;
@@ -85,12 +91,12 @@ body {
               li {
                  padding-left: 15px; 
                  a {
-                     color: #ffffff;
+                     color: @white-text;
                      font-size: 20px;
                      text-decoration: none;
                      &:hover{
-                        color: #fc635e; 
-                        border-bottom: #fc635e solid 3px;
+                        color: @primary-color; 
+                        border-bottom: @primary-color solid 3px;
                         padding-bottom: 5px;
                      }
                  }
@@ -101,9 +107,9 @@ body {
     .receive {
       margin-top: 0;
       text-align: center;
-      background: #fff;
+      background: @white-text;
       padding: 70px 50px 10px 50px;
-      color: #868686;  
+      color: @grey-ligth;  
       p {
          font-size: 22px;
          margin-bottom: 50px;
@@ -111,7 +117,7 @@ body {
     }
     .icons {
         display: flex;
-        h3 {
+        h4 {
            text-decoration: underline;
            text-transform: uppercase; 
         }
@@ -129,7 +135,7 @@ body {
           padding: 50px;  
           margin-bottom: 80px;
           border: 15px solid rgba(255, 255, 255, .2);
-          h1 {
+          h2 {
               font-size: 55px;
               margin-bottom: 50px;
           } 
@@ -142,10 +148,10 @@ body {
         text-align: center;
         padding-top: 30px;
         padding-bottom: 15px;
-      h1, p {
-          color: grey;
+      h2, p {
+          color: @gray-text;
       } 
-      h1 {
+      h2 {
         text-decoration: underline;
       }
       p {
@@ -170,16 +176,16 @@ body {
           display: flex;
           justify-content: space-around;
       }
-      h1, h2, p {
-         color: grey; 
+      h2, h3, p {
+         color: @gray-text; 
       }
       p {
           font-size: 18;
           padding-bottom: 15px;
       }
-      h2 {
+      h3 {
           text-transform: uppercase;
-          border-left: 10px solid #fc635e;
+          border-left: 10px solid @primary-color;
           padding-left: 5px;
       }
       .left {
@@ -191,7 +197,7 @@ body {
     }
     .wedo2 {
         padding: 25px;
-        background-color: #fff;
+        background-color: @white-text;
         display: flex;
         flex-direction: column;  
         align-items: center;
@@ -199,16 +205,16 @@ body {
             display: flex;
             justify-content: space-around;
         }
-        h2, p {
-           color: grey; 
+        h3, p {
+           color: @gray-text; 
         }
         p {
             font-size: 18;
             padding-bottom: 15px;
         }
-        h2 {
+        h3 {
             text-transform: uppercase;
-            border-left: 10px solid #fc635e;
+            border-left: 10px solid @primary-color;
             padding-left: 5px;
         }
         .left {
@@ -228,28 +234,28 @@ body {
         .btn {
             margin: 40px 0px;
         }
-        h1 {
+        h2 {
            margin: 50px 0px; 
            padding-bottom: 5px;
            border-bottom: 3px solid #b1b1b1;
-           color: gray;
+           color: @gray-text;
         }
         .controls {
         text-align: center;
         letter-spacing: 2px;
         font-size: 25px;
-        border-top: 3px gray solid;
-        border-bottom: 3px gray solid;
+        border-top: 3px @gray-text solid;
+        border-bottom: 3px @gray-text solid;
         padding: 15px;
         margin-bottom: 30px;
         button {
-            color: #fc635e;
+            color: @primary-color;
             background: transparent;
             border: none;
             text-transform: uppercase;
             font-size: 22px;
             &:hover {
-               color: #e44640; 
+               color: @primary-color-dark; 
                cursor: pointer;
             }
         }
@@ -290,12 +296,12 @@ body {
                }
                font-size: 20px;
                text-transform: uppercase;
-               color: #fff;
+               color: @white-text;
                font-weight: bold;
                display: none;
                position: relative;
                margin: 0;
-               background: url(../img/portfolio/plus.png) rgba(255, 72, 72, 0.75);
+               background: url(../img/portfolio/plus.png) @primary-color-rgba;
                background-position: center;
                background-repeat: no-repeat;
            }

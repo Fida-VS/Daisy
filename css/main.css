@@ -29,29 +29,29 @@ body a.btn {
 }
 body a.btn:hover {
   background: #fc635e;
-  color: #fff;
+  color: #ffffff;
 }
 body .mainText {
   text-align: center;
 }
-body .mainText h1 {
+body .mainText h2 {
   text-transform: uppercase;
   font-size: 50px;
   color: #ffffff;
 }
-body .mainText h1 span {
+body .mainText h2 span {
   color: #fc635e;
 }
 body .mainText p {
   color: #ffffff;
   font-size: 22px;
 }
-body h1.main_header {
+body h2.main_header {
   margin: 0;
   text-transform: uppercase;
   font-size: 40px;
 }
-body h1.main_header span {
+body h2.main_header span {
   color: #fc635e;
 }
 body header {
@@ -69,7 +69,7 @@ body header nav {
   align-items: center;
 }
 body header nav > a {
-  color: #fff;
+  color: #ffffff;
   font-size: 25px;
   font-weight: bold;
   text-decoration: none;
@@ -102,7 +102,7 @@ body header nav menu li a:hover {
 body .receive {
   margin-top: 0;
   text-align: center;
-  background: #fff;
+  background: #ffffff;
   padding: 70px 50px 10px 50px;
   color: #868686;
 }
@@ -113,7 +113,7 @@ body .receive p {
 body .icons {
   display: flex;
 }
-body .icons h3 {
+body .icons h4 {
   text-decoration: underline;
   text-transform: uppercase;
 }
@@ -132,7 +132,7 @@ body .expand .mainText {
   margin-bottom: 80px;
   border: 15px solid rgba(255, 255, 255, 0.2);
 }
-body .expand .mainText h1 {
+body .expand .mainText h2 {
   font-size: 55px;
   margin-bottom: 50px;
 }
@@ -144,11 +144,11 @@ body .our_process {
 body .our_process .steps {
   display: none;
 }
-body .our_process h1,
+body .our_process h2,
 body .our_process p {
-  color: grey;
+  color: #808080;
 }
-body .our_process h1 {
+body .our_process h2 {
   text-decoration: underline;
 }
 body .our_process p {
@@ -175,21 +175,21 @@ body .wedo3 .container {
   display: flex;
   justify-content: space-around;
 }
-body .wedo1 h1,
-body .wedo3 h1,
 body .wedo1 h2,
 body .wedo3 h2,
+body .wedo1 h3,
+body .wedo3 h3,
 body .wedo1 p,
 body .wedo3 p {
-  color: grey;
+  color: #808080;
 }
 body .wedo1 p,
 body .wedo3 p {
   font-size: 18;
   padding-bottom: 15px;
 }
-body .wedo1 h2,
-body .wedo3 h2 {
+body .wedo1 h3,
+body .wedo3 h3 {
   text-transform: uppercase;
   border-left: 10px solid #fc635e;
   padding-left: 5px;
@@ -204,7 +204,7 @@ body .wedo3 .right {
 }
 body .wedo2 {
   padding: 25px;
-  background-color: #fff;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -213,15 +213,15 @@ body .wedo2 .container {
   display: flex;
   justify-content: space-around;
 }
-body .wedo2 h2,
+body .wedo2 h3,
 body .wedo2 p {
-  color: grey;
+  color: #808080;
 }
 body .wedo2 p {
   font-size: 18;
   padding-bottom: 15px;
 }
-body .wedo2 h2 {
+body .wedo2 h3 {
   text-transform: uppercase;
   border-left: 10px solid #fc635e;
   padding-left: 5px;
@@ -243,18 +243,18 @@ body .portfolio {
 body .portfolio .btn {
   margin: 40px 0px;
 }
-body .portfolio h1 {
+body .portfolio h2 {
   margin: 50px 0px;
   padding-bottom: 5px;
   border-bottom: 3px solid #b1b1b1;
-  color: gray;
+  color: #808080;
 }
 body .portfolio .controls {
   text-align: center;
   letter-spacing: 2px;
   font-size: 25px;
-  border-top: 3px gray solid;
-  border-bottom: 3px gray solid;
+  border-top: 3px #808080 solid;
+  border-bottom: 3px #808080 solid;
   padding: 15px;
   margin-bottom: 30px;
 }
@@ -303,7 +303,7 @@ body .portfolio .container-filter div {
 body .portfolio .container-filter div .fil {
   font-size: 20px;
   text-transform: uppercase;
-  color: #fff;
+  color: #ffffff;
   font-weight: bold;
   display: none;
   position: relative;
