@@ -46,6 +46,15 @@ margin-top: -20px;
     font-size: 25px;
     margin-bottom: 30px;
   }
+  body .our_process .steps {
+    display: block;
+  }
+  body .our_process .steps h1 {
+    font-size: 30px;
+  }
+  body .our_process .back_process {
+    display: none;
+  }
 }
 @media screen and (max-width: 1260px) {
   .receive {
@@ -66,6 +75,89 @@ margin-top: -20px;
     max-width: 350px;
   }
   .icons div p {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .wedo1 {
+    padding: 5px;
+    text-align: center;
+  }
+  .wedo1 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .wedo1 .container h2 {
+    border-left: none;
+  }
+  .wedo1 .container img {
+   width: 100%; 
+  }
+  .wedo1 .container .left {
+    order: 2;
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  .wedo1 .container .right {
+    order: 1;
+    max-width: 100%;
+  }
+  .wedo1 .container .btn {
+    margin-bottom: 20px;
+  }
+
+  .wedo2 {
+    padding: 5px;
+    text-align: center;
+  }
+  .wedo2 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .wedo2 .container h2 {
+    border-left: none;
+  }
+  .wedo2 .container img {
+   width: 100%; 
+  }
+  .wedo2 .container .left {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  .wedo2 .container .right {
+    max-width: 100%;
+  }
+  .wedo2 .container .btn {
+    margin-bottom: 20px;
+  }
+
+  .wedo3 {
+    padding: 5px;
+    text-align: center;
+  }
+  .wedo3 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .wedo3 .container h2 {
+    border-left: none;
+  }
+  .wedo3 .container img {
+   width: 100%; 
+  }
+  .wedo3 .container .left {
+    order: 2;
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  .wedo3 .container .right {
+    order: 1;
+    max-width: 100%;
+  }
+  .wedo3 .container .btn {
     margin-bottom: 20px;
   }
 }
